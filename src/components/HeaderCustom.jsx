@@ -96,7 +96,7 @@ class HeaderCustom extends Component {
 							placeholder="input search text"
 							style={{ width: 200 }}
 							onSearch={value => console.log(value)}
-						/>
+				/>
 				<Menu
 					mode="horizontal"
 					style={{ lineHeight: '64px', float: 'right' }}
