@@ -77,7 +77,7 @@ class SiderCustom extends Component {
 						key="/app/ui1"
 						title={<span><Icon type="cloud" /><span className="nav-text">云计算基础服务</span></span>}
 					>
-						<Menu.Item key="/app/ui/buttons"><Link to={'/app/ui/buttons'}>云服务器ECS</Link></Menu.Item>
+						<Menu.Item key="/app/ui/buttons"><Link to={'/app/clude/ecs'}>云服务器ECS</Link></Menu.Item>
 						<Menu.Item key="/app/ui/icons"><Link to={'/app/ui/icons'}>云数据库RDS版</Link></Menu.Item>
 						<Menu.Item key="/app/ui/spins"><Link to={'/app/ui/spins'}>负载均衡</Link></Menu.Item>
 						<Menu.Item key="/app/ui/modals"><Link to={'/app/ui/modals'}>CDN</Link></Menu.Item>
