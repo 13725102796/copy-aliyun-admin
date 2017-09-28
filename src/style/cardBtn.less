@@ -1,0 +1,48 @@
+.space {
+  margin: 10px 0;
+}
+.card{
+  min-width: 60px;
+  border: 1px solid #F4F4F5;
+  background-color: #F4F4F5;
+  .card-left {
+    float: left;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    width: 40%;
+    height:100%;
+    text-align: center;
+    display: block;
+  }
+  .card-right {
+    height:100%;
+    float: right;
+    width: 40%;
+    margin-left: 20%;
+    text-align: center;  
+    display: block;     
+    i {
+      letter-spacing: 10px;
+      font-size: 18px;
+      color: #FF0000;
+    }
+  }
+}
+.card:hover, .card:focus{
+  cursor: pointer;
+  border: 1px solid #1DBBD8; 
+  background-color: #fff;
+}
+
+.clearfix:after{
+  centent:"";
+  height:0;
+  line-height:0;
+  display:block;
+  visibility:hidden;
+  clear:both
+}
+.clearfix{
+// 　zoom:1;
+}
