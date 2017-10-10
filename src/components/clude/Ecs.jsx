@@ -138,9 +138,37 @@ const Ecs = () => (
                       </ul>
                     </Col>
                   </div>
-                  
                 </TabPane>
-                <TabPane tab="我的消费" key="2">Content of Tab Pane 2</TabPane>
+                <TabPane tab="我的消费" key="2">
+                  <div className="custom">
+                    <Col md={12}>
+                      <div className="cus-title">账户概览</div>
+                      <Col md={12}>
+                        <div className="cou-contain">
+                          <div>账户余额（元）</div>
+                          <p className="balance">0.00</p>
+                          <a className="button">充值</a>
+                        </div>
+                      </Col>
+                      <Col md={12}>
+                        <div className="ticket-contain">
+                          <CardBtn pTxt="代金券 1 张"  height="40px" />
+                          <CardBtn pTxt="储蓄卡 0 张"  height="40px" />
+                          <CardBtn pTxt="优惠券 0 张"  height="40px" />
+                        </div>
+                      </Col>
+                    </Col>
+                    <Col md={12}>
+                      <div className="cus-title">近期消费</div>
+                      <div className="cou-contain cus-contain">
+                          <div>10月消费</div>
+                          <p className="balance">0.00</p>
+                          <div className="button">参加<a>最新活动</a>，发现云计算新旅程</div>
+                        </div>
+                    </Col>
+                  </div>
+
+                </TabPane>
                 <TabPane tab="我的积分" key="3">Content of Tab Pane 3</TabPane>
                 <TabPane tab="我的权益" key="4">Content of Tab Pane 3</TabPane>
                 <TabPane tab="云大使" key="5">Content of Tab Pane 3</TabPane>
